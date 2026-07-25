@@ -127,4 +127,41 @@
 # print(range(1,11))
 # print(list(range(10,30,2))) # even number from 10 to 30
 # print(list(range(1,20,2))) #odd number from 1 to 20
- 
+
+
+####multiplication
+# print(list(range(5, 51, 5)))
+
+
+  ######loop
+# for s in range (15):
+#     print ("python is fun")
+
+# for i in range (10,0,-1):  ##to print number in reverse
+#     print(i)
+
+# #to print square
+# for i in range(1, 11): 
+#     square = i ** 2
+#     print( i, "squared =", square)
+  
+
+##
+numbers =[1,2,3,4,5,6,7,8,9,10]
+# print("index "," numbers")
+# for i in range(len(numbers)):
+#     print(i,"\t",numbers[i])
+
+
+# for n in numbers:
+#     if n%2==0:
+#         print (n,"is even numer")
+#     else:
+#         print (n,"is odd number")
+
+
+target = (input("enter a number:"))
+if target in numbers:
+    print(target, "is in the list")
+else:
+    print(target, "is not in the list")
