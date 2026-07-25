@@ -147,7 +147,7 @@
   
 
 ##
-numbers =[1,2,3,4,5,6,7,8,9,10]
+# numbers =[1,2,3,4,5,6,7,8,9,10]
 # print("index "," numbers")
 # for i in range(len(numbers)):
 #     print(i,"\t",numbers[i])
@@ -160,8 +160,8 @@ numbers =[1,2,3,4,5,6,7,8,9,10]
 #         print (n,"is odd number")
 
 
-target = (input("enter a number:"))
-if target in numbers:
-    print(target, "is in the list")
-else:
-    print(target, "is not in the list")
+# target = (input("enter a number:"))
+# if target in numbers:
+#     print(target, "is in the list")
+# else:
+#     print(target, "is not in the list")
