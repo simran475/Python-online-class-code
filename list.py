@@ -147,7 +147,7 @@
   
 
 ##
-# numbers =[1,2,3,4,5,6,7,8,9,10]
+numbers =[1,2,3,4,5,6,7,8,9,10]
 # print("index "," numbers")
 # for i in range(len(numbers)):
 #     print(i,"\t",numbers[i])
@@ -155,7 +155,7 @@
 
 # for n in numbers:
 #     if n%2==0:
-#         print (n,"is even numer")
+#         print (f"{n} is even numer") # using f string
 #     else:
 #         print (n,"is odd number")
 
