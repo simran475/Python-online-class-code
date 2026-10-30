@@ -1,26 +1,27 @@
 # ##Data structures
 # ##Lists
-# name=["simran","ram","shyam"]
-# # positive indexing [0,1,2] and negative indexing [-3,-2,-1]
-# # print(name)
-# # print(name[0]) #output: simran
-# # print(name[1]) #output: ram
-# # print(name[2]) #output: shyam
-# # print(name[-3]) #output: simran
-# # print(name[-2]) #output: ram
-# # print(name[-1]) #output: shyam
-# # print(name[0:2]) #output: ['simran', 'ram'] #slicing  #end is not included
-# # print(name[1:3]) #output: ['ram', 'shyam'] #slicing
-# # print(name[0:3]) #output: ['simran', 'ram', 'shyam'] #slicing #we have to give extra index to include the last element
-# # print(name[0:]) #output: ['simran', 'ram', 'shyam'] #slicing #if we don't give the end index then it will take all the elements from the start index to the end of the list
-# # print(name[:3]) #output: ['simran', 'ram', 'shyam'] #slicing #if we don't give the start index then it will take all the elements from the start of the list to the end index
-# # print(name[:]) #output: ['simran', 'ram', 'shyam'] #slicing #if we don't give the start and end index then it will take all the elements from the list
-# # print(name[::2]) #output: ['simran', 'shyam'] #slicing #if we give the step index then it will take all the elements from the start index to the end index with the given step index
-# # print(name[::-1]) #output: ['shyam', 'ram', 'simran'] #slicing #if we give the step index as -1 then it will take all the elements from the end index to the start index
-# # print(name[1:3:2]) #output: ['ram'] #slicing #if we give the step index then it will take all the elements from the start index to the end index with the given step index
+#name=["simran","ram","shyam"]
+#positive indexing [0,1,2] and negative indexing [-3,-2,-1]
+#print(name)
+# print(name[0]) #output: simran
+# print(name[1]) #output: ram
+# print(name[2]) #output: shyam
+# print(name[-3]) #output: simran
+# print(name[-2]) #output: ram
+# print(name[-1]) #output: shyam
+# print(name[1:3]) #output: ['ram', 'shyam'] #slicing
+# print(name[0:3]) #output: ['simran', 'ram', 'shyam'] #slicing #we have to give extra index to include the last element
+# print(name[0:]) #output: ['simran', 'ram', 'shyam'] #slicing #if we don't give the end index then it will take all the elements from the start index to the end of the list
+# print(name[:3]) #output: ['simran', 'ram', 'shyam'] #slicing #if we don't give the start index then it will take all the elements from the start of the list to the end index
+# print(name[:]) #output: ['simran', 'ram', 'shyam'] #slicing #if we don't give the start and end index then it will take all the elements from the list
+# print(name[::2]) #output: ['simran', 'shyam'] #slicing #if we give the step index then it will take all the elements from the start index to the end index with the given step index
+# print(name[::-1]) #output: ['shyam', 'ram', 'simran'] #slicing #if we give the step index as -1 then it will take all the elements from the end index to the start index
+# print(nums[::-1])   # [60, 50, 40, 30, 20, 10] -> reversed
+# print(nums[::-2])   # [60, 40, 20]             -> reversed, every 2nd item
+# print(name[1:3:2]) #output: ['ram'] #slicing #if we give the step index then it will take all the elements from the start index to the end index with the given step index
 
 
-   
+    
 # #list methods
     
 # name.append("sita")

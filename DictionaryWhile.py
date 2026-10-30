@@ -48,7 +48,8 @@
 # #  but you don't want any code to run there yet
 
 
-
+''' here is a simple example of a while loop that counts from 1 to 5 and prints each number. 
+The loop continues as long as the condition (i <= 5) is true. Inside the loop, we print the current value of i and then increment it by 1. Once i becomes greater than 5, the loop exits. '''
 
 # while-else
 # i=1

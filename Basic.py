@@ -80,3 +80,10 @@ print("hi" , "hello",  "yooo", sep="\t")
 print("hi" , "hello",  "yooo", end=",")
 print("hi" , "hello",  "yooo", sep="\t", end=",")
 print ("hi my namme is simran","i love coding",sep="\t", end=",")
+
+
+'''format()method
+'''
+print("My name is {}".format(name))
+print("I am {} years old.".format(age))
+print("I am in grade {}.".format(grade))
