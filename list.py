@@ -1,8 +1,9 @@
-# ##Data structures
-# ##Lists
-#name=["simran","ram","shyam"]
-#positive indexing [0,1,2] and negative indexing [-3,-2,-1]
-#print(name)
+"""Data structures"""
+"""Lists"""
+
+# name=["simran","ram","shyam"]
+# #positive indexing [0,1,2] and negative indexing [-3,-2,-1]
+# print(name)
 # print(name[0]) #output: simran
 # print(name[1]) #output: ram
 # print(name[2]) #output: shyam
@@ -16,20 +17,22 @@
 # print(name[:]) #output: ['simran', 'ram', 'shyam'] #slicing #if we don't give the start and end index then it will take all the elements from the list
 # print(name[::2]) #output: ['simran', 'shyam'] #slicing #if we give the step index then it will take all the elements from the start index to the end index with the given step index
 # print(name[::-1]) #output: ['shyam', 'ram', 'simran'] #slicing #if we give the step index as -1 then it will take all the elements from the end index to the start index
-# print(nums[::-1])   # [60, 50, 40, 30, 20, 10] -> reversed
-# print(nums[::-2])   # [60, 40, 20]             -> reversed, every 2nd item
+# print(name[::-1])   # [60, 50, 40, 30, 20, 10] -> reversed
+# print(name[::-2])   # [60, 40, 20]             -> reversed, every 2nd item
 # print(name[1:3:2]) #output: ['ram'] #slicing #if we give the step index then it will take all the elements from the start index to the end index with the given step index
 
 
-    
-# #list methods
-    
+'''list methods'''   
+
+# name.append("simu")
 # name.append("sita")
+# print(name)
+# name.extend(["gita","rita"])
 # print(name)
 # name.remove("ram")
 # print(name)
 # print(len(name)) #output: 3 #it will give the length of the list
-# name.insert(3,"ram")
+# name.insert(4,"ram")
 # print(name)
 # name.pop(2)
 # print(name)
@@ -49,7 +52,8 @@
 
 
 
-########membership perator ->in, not in # membership operators are used to test whether a value or variable is found in a sequence (string, list, tuple, set and dictionary).
+"""membership operator ->in, not in # membership operators are used to test whether
+   a value or variable is found in a sequence (string, list, tuple, set and dictionary)."""
 # student=["simran","ram","shyam"]
 # print("simran" in student) #output: True
 # print("sita" in student) #output: False
@@ -57,7 +61,7 @@
 # print("sita" not in student) #output: True
 
 
-# example of membership operator
+''' example of membership operator'''
 # name=(input("Enter your name: "))
 # if name in student:
 #     print("You are a student.")
@@ -65,14 +69,25 @@
 #     print("You are not a student.")
 
 
-# ###Range
-# print(list(range(10))) #output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #it will give the list of numbers from 0 to 9 #10 is the stopping value
-# print(list(range(2, 10))) #output: [2, 3, 4, 5, 6, 7, 8, 9] #it will give the list of numbers from 2 to 9 #10 is the stopping value and 2 is the starting value
-# print(list(range(2, 10, 2))) #output: [2, 4, 6, 8] #it will give the list of numbers from 2 to 9 with a step of 2 #there will be gap of 2 between the numbers
+'''Range function is used to generate a sequence of numbers. It can take one, two or three arguments.
+The range() function returns a sequence of numbers starting from 0 by default, and increments by 
+1 (by default), and stops before a specified number.'''
+# print(range(10)) #output: range(0, 10) 
+'''it will give the range of numbers from 0 to 9 #10 is the stopping value'''
+
+# print(list(range(10))) #output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 
+'''it will give the list of numbers from 0 to 9 #10 is the stopping value'''
+
+# print(list(range(2, 10))) #output: [2, 3, 4, 5, 6, 7, 8, 9] 
+'''#it will give the list of numbers from 2 to 9 #10 is the stopping value and 2 is the starting value'''
+
+# print(list(range(2, 10, 2))) #output: [2, 4, 6, 8] 
+'''#it will give the list of numbers from 2 to 9 with a step of 2 #there will be gap of 2 between the numbers'''
 
 
 
-# ##for loop
+'''for loop is used to iterate over a sequence (list, tuple, string) or other iterable objects.
+It is used to execute a block of code repeatedly for a fixed number of times.'''
 # for i in range(2):
 #     print("my name is simran") 
 #     print ("i am learning python")
@@ -82,8 +97,10 @@
 # for s in students: #for loop will iterate through the list of students and print each name one by one
 #     print(s) #output: simran ram shyam #it will print the names of the students one by one
 
-
-
+'''multiplication table using for loop'''
+# print("multiplication table of 5:")
+# for i in range(1,11):
+#     print(f"5*{i}={5*i}")
 
 # # Assignment1
 # # fruits=["apple","banana","grapes","mango","orange"]
