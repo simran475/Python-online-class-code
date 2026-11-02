@@ -4,7 +4,7 @@
 #to make an empty dictonary we can do this-> data={}
 #to make an empty set we can do this-> data= set()
 
-# # for dictionary we do this
+# for dictionary we do this
 # Student={
 #     "name":"simran","Age":18,"grade":"A+","phone number":9805412586
 # }
