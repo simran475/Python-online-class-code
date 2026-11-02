@@ -1,20 +1,26 @@
-# def demo():
+# #function is a block of code which is used to perform a specific task
+#  def demo():
 #     print("hello world")
 #     print("i am lucky")
 
 # demo()
 
+# def study (subject,teacher,time):
+#     print(f" {subject} is taught by {teacher} at {time}.")
 
+# study("python","mr.ram","10 am")
 # def greet(name, greeting="Hello", punctuation="!"):
 #     print(f"{greeting}, {name}{punctuation}")
 
-# # 1. Positional arguments — matched by order
-# greet("Alice", "Hi", "!!")
-# # name="Alice", greeting="Hi", punctuation="!!"
+# greet("Alice")
 
-# # 2. Keyword arguments — matched by name, order doesn't matter
+# 1. Positional arguments — matched by order
+# greet("Alice", "Hi", "!!")
+# ###name="Alice", greeting="Hi", punctuation="!!"
+
+# 2. Keyword arguments — matched by name, order doesn't matter
 # greet(greeting="Hey", name="Bob")
-# # name="Bob", greeting="Hey" (punctuation uses default)
+# ###name="Bob", greeting="Hey"#(punctuation uses default)
 
 # # 3. Default arguments — fallback used if not provided
 # greet("Charlie")
@@ -83,10 +89,10 @@
 # profile(name="hari",salary="25000",occupation="teacher")     #here we have different keyword  
 
 
-def mix_parameter(name,*args,**kwargs):
-    print(name)
-    print(args)
-    print(kwargs)
+# def mix_parameter(name,*args,**kwargs):
+#     print(name)
+#     print(args)
+#     print(kwargs)
 
-mix_parameter("ram",123,"simu",True,456,89,age=9) #at first we should write position argument we canot write it later
-#and after writing key argument it will movw to another argument type
+# mix_parameter("ram",123,"simu",True,456,89,age=9) #at first we should write position argument we canot write it later
+# and after writing key argument it will movw to another argument type
