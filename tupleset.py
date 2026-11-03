@@ -4,7 +4,8 @@
 #     print (i)
 
 '''tuple (exactly list but immutable)''' #collection of data which we canot change
-# student=("ram","shyam","hari")
+student=("ram","shyam","hari")
+print(student)
 # print (student[0])
 # for s in student:
 #     print (s)
@@ -34,10 +35,10 @@
 # students={"hari","ram","shyam","nita","gita"}
 # print (students)
 
-ram_hobbies={"dancing","eating","singing","reading"}
-sita_hobbies={"painting","cooking","singing","reading"}
-print(ram_hobbies)
-print(sita_hobbies)
+# ram_hobbies={"dancing","eating","singing","reading"}
+# sita_hobbies={"painting","cooking","singing","reading"}
+# print(ram_hobbies)
+# print(sita_hobbies)
 # union =ram_hobbies.union(sita_hobbies) #.union is used for the union of two set
 # print(union)
 
