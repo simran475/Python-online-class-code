@@ -113,12 +113,12 @@ we print the current value of i and then increment it by 1. Once i becomes great
 '''continue #continue skips the rest of the current loop iteration 
 and jumps straight to the next iteration — it does not exit the loop,
    it just skips what's left in the current cycle.'''
-i=0
-while True:
-    i+=1
-    # if i>10:
-    #     break
-    if i==5:
-        continue
-    print (i)
+# i=0
+# while True:
+#     i+=1
+#     # if i>10:
+#     #     break
+#     if i==5:
+#         continue
+#     print (i)
     
