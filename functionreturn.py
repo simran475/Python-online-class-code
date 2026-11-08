@@ -1,12 +1,10 @@
-# def mul(*nums):
-#     total=1
-#     for n in nums:
-#         total*= n
-#         print(total)
-#     return total
-#         # print ("hellio")
-  
-# mul(2,3,4,5)
+def mul(*nums):
+    total = 1
+    for n in nums:
+        total *= n
+    return total
+
+print(mul(3, 2))  # 6
 
 # def test():
 #     print("Second")
@@ -18,24 +16,25 @@
 
 # test()
 
-
-###local variable
+# yoo="hello"
+'''###local variable'''
 # def demo():
+    
 #     yoo="sudam" #local varible #we can use it where we define it
 #     print(yoo)
 # demo()
-# # print(yoo)##can not print outside that function
+# print(yoo)##can not print outside that function
 
 
 
-#global varible
+'''#global varible'''
 # name="ram"
 # def demo():
 #     print("age:15")
 # demo()
 # print (name)
  
-#  #making local varible a global varible
+'''#  #making local varible a global varible'''
 # def demo():
 #     global yoo # we can make a local varible a globle varible by this method
 #     yoo="sudam" #local varible #we can use it where we define it
@@ -54,10 +53,7 @@
 # print("Outside function:", x)
 # # The local variable x exists only inside the function and does not affect the global x.  
 
-
-
-
-##################number geuss game
+'''number geuss game'''
 from random import randint
 player ={"ram":4,"shyam":5}
 while True:
